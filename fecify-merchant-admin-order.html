@@ -1,0 +1,1319 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Fecify 订单管理 · Fecpx 开发说明文档</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Terry">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-insert-logo/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-lightbox/css/lightbox.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-ancre-navigation/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="styles/website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="fecify-merchant-admin-order-processing.html" />
+    
+    
+    <link rel="prev" href="fecify-merchant-admin.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="http://www.fecpx.com" target="_blank" class="custom-link">官网首页</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        <li class="header">Fecify简介</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="fecify-about.html">
+            
+                <a href="fecify-about.html">
+            
+                    
+                    Fecify 关于
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="fecify-system-about.html">
+            
+                <a href="fecify-system-about.html">
+            
+                    
+                    Fecify 系统介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="fecify-install.html">
+            
+                <a href="fecify-install.html">
+            
+                    
+                    Fecify 系统安装
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="fecify-install-env.html">
+            
+                <a href="fecify-install-env.html">
+            
+                    
+                    Fecify 环境配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="fecify-install-system-install.html">
+            
+                <a href="fecify-install-system-install.html">
+            
+                    
+                    Fecify 系统安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="fecify-install-queue.html">
+            
+                <a href="fecify-install-queue.html">
+            
+                    
+                    Fecify系统自启动配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="fecify-admin.html">
+            
+                <a href="fecify-admin.html">
+            
+                    
+                    Fecify 服务端后台操作
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="fecify-admin-user.html">
+            
+                <a href="fecify-admin-user.html">
+            
+                    
+                    Fecify 用户管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="fecify-admin-shop.html">
+            
+                <a href="fecify-admin-shop.html">
+            
+                    
+                    Fecify 店铺管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="fecify-admin-addons.html">
+            
+                <a href="fecify-admin-addons.html">
+            
+                    
+                    Fecify 应用管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="fecify-admin-upgrade.html">
+            
+                <a href="fecify-admin-upgrade.html">
+            
+                    
+                    Fecify 升级授权
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="fecify-admin-system-set.html">
+            
+                <a href="fecify-admin-system-set.html">
+            
+                    
+                    Fecify 系统设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="fecify-merchant-admin.html">
+            
+                <a href="fecify-merchant-admin.html">
+            
+                    
+                    Fecify 商家端后台操作
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.5.1" data-path="fecify-merchant-admin-order.html">
+            
+                <a href="fecify-merchant-admin-order.html">
+            
+                    
+                    Fecify 订单管理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1.1" data-path="fecify-merchant-admin-order-processing.html">
+            
+                <a href="fecify-merchant-admin-order-processing.html">
+            
+                    
+                    Fecify 待处理订单
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1.1.1" data-path="fecify-merchant-admin-order-processing-list-and-export.html">
+            
+                <a href="fecify-merchant-admin-order-processing-list-and-export.html">
+            
+                    
+                    Fecify 订单列表和导出
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.1.2" data-path="fecify-merchant-admin-order-processing-cancel.html">
+            
+                <a href="fecify-merchant-admin-order-processing-cancel.html">
+            
+                    
+                    Fecify 订单取消
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.1.3" data-path="fecify-merchant-admin-order-processing-tag-remark.html">
+            
+                <a href="fecify-merchant-admin-order-processing-tag-remark.html">
+            
+                    
+                    Fecify 订单标签和备注
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.1.4" data-path="fecify-merchant-admin-order-processing-send.html">
+            
+                <a href="fecify-merchant-admin-order-processing-send.html">
+            
+                    
+                    Fecify 订单发货
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.1.5" data-path="fecify-merchant-admin-order-processing-receive.html">
+            
+                <a href="fecify-merchant-admin-order-processing-receive.html">
+            
+                    
+                    Fecify 订单收货
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.1.6" data-path="fecify-merchant-admin-order-processing-after-sale.html">
+            
+                <a href="fecify-merchant-admin-order-processing-after-sale.html">
+            
+                    
+                    Fecify 发起订单售后
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.2" data-path="fecify-merchant-admin-order-pending.html">
+            
+                <a href="fecify-merchant-admin-order-pending.html">
+            
+                    
+                    Fecify 未完成订单
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1.2.1" data-path="fecify-merchant-admin-order-pending-list.html">
+            
+                <a href="fecify-merchant-admin-order-pending-list.html">
+            
+                    
+                    Fecify 未完成订单列表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.2.2" data-path="fecify-merchant-admin-order-pending-send-email.html">
+            
+                <a href="fecify-merchant-admin-order-pending-send-email.html">
+            
+                    
+                    Fecify 订单召回邮件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.3" data-path="fecify-merchant-admin-order-after-sale.html">
+            
+                <a href="fecify-merchant-admin-order-after-sale.html">
+            
+                    
+                    Fecify 售后订单
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1.3.1" data-path="fecify-merchant-admin-order-after-sale-refund.html">
+            
+                <a href="fecify-merchant-admin-order-after-sale-refund.html">
+            
+                    
+                    Fecify 售后-退款
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.3.2" data-path="fecify-merchant-admin-order-after-sale-return.html">
+            
+                <a href="fecify-merchant-admin-order-after-sale-return.html">
+            
+                    
+                    Fecify 售后-退货
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="fecify-merchant-admin-product.html">
+            
+                <a href="fecify-merchant-admin-product.html">
+            
+                    
+                    Fecify 产品管理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.2.1" data-path="fecify-merchant-admin-product-manage.html">
+            
+                <a href="fecify-merchant-admin-product-manage.html">
+            
+                    
+                    Fecify 商品管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.2" data-path="fecify-merchant-admin-product-collection.html">
+            
+                <a href="fecify-merchant-admin-product-collection.html">
+            
+                    
+                    Fecify 商品专辑
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.3" data-path="fecify-merchant-admin-product-recycle-bin.html">
+            
+                <a href="fecify-merchant-admin-product-recycle-bin.html">
+            
+                    
+                    Fecify 商品回收站
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="fecify-merchant-admin-customer.html">
+            
+                <a href="fecify-merchant-admin-customer.html">
+            
+                    
+                    Fecify 顾客管理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.3.1" data-path="fecify-merchant-admin-customer-list.html">
+            
+                <a href="fecify-merchant-admin-customer-list.html">
+            
+                    
+                    Fecify 顾客列表
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="fecify-merchant-admin-shop.html">
+            
+                <a href="fecify-merchant-admin-shop.html">
+            
+                    
+                    Fecify 店铺管理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.4.1" data-path="fecify-merchant-admin-shop-theme-diy.html">
+            
+                <a href="fecify-merchant-admin-shop-theme-diy.html">
+            
+                    
+                    Fecify 店铺主题装修
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.2" data-path="fecify-merchant-admin-menu.html">
+            
+                <a href="fecify-merchant-admin-menu.html">
+            
+                    
+                    Fecify 菜单导航
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.3" data-path="fecify-merchant-admin-page.html">
+            
+                <a href="fecify-merchant-admin-page.html">
+            
+                    
+                    Fecify 自定义页面
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.4" data-path="fecify-merchant-admin-url-redirect.html">
+            
+                <a href="fecify-merchant-admin-url-redirect.html">
+            
+                    
+                    Fecify URL重定向
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="fecify-merchant-admin-discount.html">
+            
+                <a href="fecify-merchant-admin-discount.html">
+            
+                    
+                    Fecify 折扣
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.5.1" data-path="fecify-merchant-admin-coupon.html">
+            
+                <a href="fecify-merchant-admin-coupon.html">
+            
+                    
+                    Fecify 优惠券
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="fecify-merchant-admin-config.html">
+            
+                <a href="fecify-merchant-admin-config.html">
+            
+                    
+                    Fecify 设置
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="fecify-merchant-admin-config-base.html">
+            
+                <a href="fecify-merchant-admin-config-base.html">
+            
+                    
+                    Fecify 基础设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="fecify-merchant-admin-config-mutil-lang.html">
+            
+                <a href="fecify-merchant-admin-config-mutil-lang.html">
+            
+                    
+                    Fecify 多语言设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="fecify-merchant-admin-config-task.html">
+            
+                <a href="fecify-merchant-admin-config-task.html">
+            
+                    
+                    Fecify Task管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="fecify-merchant-admin-config-shipping.html">
+            
+                <a href="fecify-merchant-admin-config-shipping.html">
+            
+                    
+                    Fecify 物流设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="fecify-merchant-admin-config-permission.html">
+            
+                <a href="fecify-merchant-admin-config-permission.html">
+            
+                    
+                    Fecify 系统权限
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.5.1" data-path="fecify-merchant-admin-config-permission-role.html">
+            
+                <a href="fecify-merchant-admin-config-permission-role.html">
+            
+                    
+                    Fecify 角色管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5.2" data-path="fecify-merchant-admin-config-permission-manager.html">
+            
+                <a href="fecify-merchant-admin-config-permission-manager.html">
+            
+                    
+                    Fecify 操作员管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="fecify-merchant-admin-addons.html">
+            
+                <a href="fecify-merchant-admin-addons.html">
+            
+                    
+                    Fecify 应用插件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="fecify-merchant-admin-addons-base.html">
+            
+                <a href="fecify-merchant-admin-addons-base.html">
+            
+                    
+                    Fecify 基础应用
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1.1" data-path="fecify-merchant-admin-addons-base-notice-email.html">
+            
+                <a href="fecify-merchant-admin-addons-base-notice-email.html">
+            
+                    
+                    Fecify 消息通知
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.1.2" data-path="fecify-merchant-admin-addons-base-blog.html">
+            
+                <a href="fecify-merchant-admin-addons-base-blog.html">
+            
+                    
+                    Fecify 博客插件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.1.3" data-path="fecify-merchant-admin-addons-base-sitemap.html">
+            
+                <a href="fecify-merchant-admin-addons-base-sitemap.html">
+            
+                    
+                    Fecify Sitemap
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.1.4" data-path="fecify-merchant-admin-addons-base-custom-script.html">
+            
+                <a href="fecify-merchant-admin-addons-base-custom-script.html">
+            
+                    
+                    Fecify 自定义代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.1.5" data-path="fecify-merchant-admin-addons-base-site-seo.html">
+            
+                <a href="fecify-merchant-admin-addons-base-site-seo.html">
+            
+                    
+                    Fecify 网站SEO
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="fecify-merchant-admin-strong.html">
+            
+                <a href="fecify-merchant-admin-strong.html">
+            
+                    
+                    Fecify 功能增强
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.2.1" data-path="fecify-merchant-admin-strong-language.html">
+            
+                <a href="fecify-merchant-admin-strong-language.html">
+            
+                    
+                    Fecify 多语言插件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2.2" data-path="fecify-merchant-admin-strong-storage.html">
+            
+                <a href="fecify-merchant-admin-strong-storage.html">
+            
+                    
+                    Fecify 云图片存储
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2.3" data-path="fecify-merchant-admin-strong-currency.html">
+            
+                <a href="fecify-merchant-admin-strong-currency.html">
+            
+                    
+                    Fecify 多货币
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2.4" data-path="fecify-merchant-admin-strong-shipping.html">
+            
+                <a href="fecify-merchant-admin-strong-shipping.html">
+            
+                    
+                    Fecify 物流追踪
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="fecify-merchant-admin-market.html">
+            
+                <a href="fecify-merchant-admin-market.html">
+            
+                    
+                    Fecify 营销推广
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.3.1" data-path="fecify-merchant-admin-market-google.html">
+            
+                <a href="fecify-merchant-admin-market-google.html">
+            
+                    
+                    Fecify Google插件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3.2" data-path="fecify-merchant-admin-market-facebook.html">
+            
+                <a href="fecify-merchant-admin-market-facebook.html">
+            
+                    
+                    Fecify Facebook插件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3.3" data-path="fecify-merchant-admin-market-pinterest.html">
+            
+                <a href="fecify-merchant-admin-market-pinterest.html">
+            
+                    
+                    Fecify Pinterest插件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3.4" data-path="fecify-merchant-admin-market-bing.html">
+            
+                <a href="fecify-merchant-admin-market-bing.html">
+            
+                    
+                    Fecify Bing必应插件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="fecify-merchant-admin-sync-data.html">
+            
+                <a href="fecify-merchant-admin-sync-data.html">
+            
+                    
+                    Fecify 同步工具
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.4.1" data-path="fecify-merchant-admin-sync-data-shopify.html">
+            
+                <a href="fecify-merchant-admin-sync-data-shopify.html">
+            
+                    
+                    Fecify Shopify数据同步
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="fecify-shop-front.html">
+            
+                <a href="fecify-shop-front.html">
+            
+                    
+                    Fecify 前端商城
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="fecify-shop-front-order.html">
+            
+                <a href="fecify-shop-front-order.html">
+            
+                    
+                    商城下单流程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="fecify-shop-front-query-order.html">
+            
+                <a href="fecify-shop-front-query-order.html">
+            
+                    
+                    用户订单查询
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Fecify 订单管理</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <html><head></head><body><div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#fecify-&#x8BA2;&#x5355;&#x7BA1;&#x7406;"><b></b>Fecify &#x8BA2;&#x5355;&#x7BA1;&#x7406;</a></li></ul></div><a href="#fecify-&#x8BA2;&#x5355;&#x7BA1;&#x7406;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#fecify-&#x8BA2;&#x5355;&#x7BA1;&#x7406;"><b></b>Fecify &#x8BA2;&#x5355;&#x7BA1;&#x7406;</a></li></ul></div><h1 id="fecify-&#x8BA2;&#x5355;&#x7BA1;&#x7406;"><a name="fecify-&#x8BA2;&#x5355;&#x7BA1;&#x7406;" class="anchor-navigation-ex-anchor" href="#fecify-&#x8BA2;&#x5355;&#x7BA1;&#x7406;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="fecify-&#x8BA2;&#x5355;&#x7BA1;&#x7406;" class="anchor-navigation-ex-anchor" href="#fecify-&#x8BA2;&#x5355;&#x7BA1;&#x7406;"><i class="fa fa-link" aria-hidden="true"></i></a>Fecify &#x8BA2;&#x5355;&#x7BA1;&#x7406;</h1>
+</body></html>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="fecify-merchant-admin.html" class="navigation navigation-prev " aria-label="Previous page: Fecify 商家端后台操作">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="fecify-merchant-admin-order-processing.html" class="navigation navigation-next " aria-label="Next page: Fecify 待处理订单">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Fecify 订单管理","level":"1.5.1","depth":2,"next":{"title":"Fecify 待处理订单","level":"1.5.1.1","depth":3,"path":"fecify-merchant-admin-order-processing.md","ref":"fecify-merchant-admin-order-processing.md","articles":[{"title":"Fecify 订单列表和导出","level":"1.5.1.1.1","depth":4,"path":"fecify-merchant-admin-order-processing-list-and-export.md","ref":"fecify-merchant-admin-order-processing-list-and-export.md","articles":[]},{"title":"Fecify 订单取消","level":"1.5.1.1.2","depth":4,"path":"fecify-merchant-admin-order-processing-cancel.md","ref":"fecify-merchant-admin-order-processing-cancel.md","articles":[]},{"title":"Fecify 订单标签和备注","level":"1.5.1.1.3","depth":4,"path":"fecify-merchant-admin-order-processing-tag-remark.md","ref":"fecify-merchant-admin-order-processing-tag-remark.md","articles":[]},{"title":"Fecify 订单发货","level":"1.5.1.1.4","depth":4,"path":"fecify-merchant-admin-order-processing-send.md","ref":"fecify-merchant-admin-order-processing-send.md","articles":[]},{"title":"Fecify 订单收货","level":"1.5.1.1.5","depth":4,"path":"fecify-merchant-admin-order-processing-receive.md","ref":"fecify-merchant-admin-order-processing-receive.md","articles":[]},{"title":"Fecify 发起订单售后","level":"1.5.1.1.6","depth":4,"path":"fecify-merchant-admin-order-processing-after-sale.md","ref":"fecify-merchant-admin-order-processing-after-sale.md","articles":[]}]},"previous":{"title":"Fecify 商家端后台操作","level":"1.5","depth":1,"path":"fecify-merchant-admin.md","ref":"fecify-merchant-admin.md","articles":[{"title":"Fecify 订单管理","level":"1.5.1","depth":2,"path":"fecify-merchant-admin-order.md","ref":"fecify-merchant-admin-order.md","articles":[{"title":"Fecify 待处理订单","level":"1.5.1.1","depth":3,"path":"fecify-merchant-admin-order-processing.md","ref":"fecify-merchant-admin-order-processing.md","articles":[{"title":"Fecify 订单列表和导出","level":"1.5.1.1.1","depth":4,"path":"fecify-merchant-admin-order-processing-list-and-export.md","ref":"fecify-merchant-admin-order-processing-list-and-export.md","articles":[]},{"title":"Fecify 订单取消","level":"1.5.1.1.2","depth":4,"path":"fecify-merchant-admin-order-processing-cancel.md","ref":"fecify-merchant-admin-order-processing-cancel.md","articles":[]},{"title":"Fecify 订单标签和备注","level":"1.5.1.1.3","depth":4,"path":"fecify-merchant-admin-order-processing-tag-remark.md","ref":"fecify-merchant-admin-order-processing-tag-remark.md","articles":[]},{"title":"Fecify 订单发货","level":"1.5.1.1.4","depth":4,"path":"fecify-merchant-admin-order-processing-send.md","ref":"fecify-merchant-admin-order-processing-send.md","articles":[]},{"title":"Fecify 订单收货","level":"1.5.1.1.5","depth":4,"path":"fecify-merchant-admin-order-processing-receive.md","ref":"fecify-merchant-admin-order-processing-receive.md","articles":[]},{"title":"Fecify 发起订单售后","level":"1.5.1.1.6","depth":4,"path":"fecify-merchant-admin-order-processing-after-sale.md","ref":"fecify-merchant-admin-order-processing-after-sale.md","articles":[]}]},{"title":"Fecify 未完成订单","level":"1.5.1.2","depth":3,"path":"fecify-merchant-admin-order-pending.md","ref":"fecify-merchant-admin-order-pending.md","articles":[{"title":"Fecify 未完成订单列表","level":"1.5.1.2.1","depth":4,"path":"fecify-merchant-admin-order-pending-list.md","ref":"fecify-merchant-admin-order-pending-list.md","articles":[]},{"title":"Fecify 订单召回邮件","level":"1.5.1.2.2","depth":4,"path":"fecify-merchant-admin-order-pending-send-email.md","ref":"fecify-merchant-admin-order-pending-send-email.md","articles":[]}]},{"title":"Fecify 售后订单","level":"1.5.1.3","depth":3,"path":"fecify-merchant-admin-order-after-sale.md","ref":"fecify-merchant-admin-order-after-sale.md","articles":[{"title":"Fecify 售后-退款","level":"1.5.1.3.1","depth":4,"path":"fecify-merchant-admin-order-after-sale-refund.md","ref":"fecify-merchant-admin-order-after-sale-refund.md","articles":[]},{"title":"Fecify 售后-退货","level":"1.5.1.3.2","depth":4,"path":"fecify-merchant-admin-order-after-sale-return.md","ref":"fecify-merchant-admin-order-after-sale-return.md","articles":[]}]}]},{"title":"Fecify 产品管理","level":"1.5.2","depth":2,"path":"fecify-merchant-admin-product.md","ref":"fecify-merchant-admin-product.md","articles":[{"title":"Fecify 商品管理","level":"1.5.2.1","depth":3,"path":"fecify-merchant-admin-product-manage.md","ref":"fecify-merchant-admin-product-manage.md","articles":[]},{"title":"Fecify 商品专辑","level":"1.5.2.2","depth":3,"path":"fecify-merchant-admin-product-collection.md","ref":"fecify-merchant-admin-product-collection.md","articles":[]},{"title":"Fecify 商品回收站","level":"1.5.2.3","depth":3,"path":"fecify-merchant-admin-product-recycle-bin.md","ref":"fecify-merchant-admin-product-recycle-bin.md","articles":[]}]},{"title":"Fecify 顾客管理","level":"1.5.3","depth":2,"path":"fecify-merchant-admin-customer.md","ref":"fecify-merchant-admin-customer.md","articles":[{"title":"Fecify 顾客列表","level":"1.5.3.1","depth":3,"path":"fecify-merchant-admin-customer-list.md","ref":"fecify-merchant-admin-customer-list.md","articles":[]}]},{"title":"Fecify 店铺管理","level":"1.5.4","depth":2,"path":"fecify-merchant-admin-shop.md","ref":"fecify-merchant-admin-shop.md","articles":[{"title":"Fecify 店铺主题装修","level":"1.5.4.1","depth":3,"path":"fecify-merchant-admin-shop-theme-diy.md","ref":"fecify-merchant-admin-shop-theme-diy.md","articles":[]},{"title":"Fecify 菜单导航","level":"1.5.4.2","depth":3,"path":"fecify-merchant-admin-menu.md","ref":"fecify-merchant-admin-menu.md","articles":[]},{"title":"Fecify 自定义页面","level":"1.5.4.3","depth":3,"path":"fecify-merchant-admin-page.md","ref":"fecify-merchant-admin-page.md","articles":[]},{"title":"Fecify URL重定向","level":"1.5.4.4","depth":3,"path":"fecify-merchant-admin-url-redirect.md","ref":"fecify-merchant-admin-url-redirect.md","articles":[]}]},{"title":"Fecify 折扣","level":"1.5.5","depth":2,"path":"fecify-merchant-admin-discount.md","ref":"fecify-merchant-admin-discount.md","articles":[{"title":"Fecify 优惠券","level":"1.5.5.1","depth":3,"path":"fecify-merchant-admin-coupon.md","ref":"fecify-merchant-admin-coupon.md","articles":[]}]}]},"dir":"ltr"},"config":{"plugins":["-lunr","search-pro","-search","-share","expandable-chapters-small","insert-logo","highlight","chapter-fold","expandable-chapters","splitter","lightbox","anchor-navigation-ex","ancre-navigation","pageview-count"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy www.fecpx.com 2020"},"chapter-fold":{},"splitter":{},"search-pro":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":false,"showLevel":false},"lightbox":{"jquery":true,"sameUuid":false},"page-toc-button":{"maxTocDepth":2,"minTocSize":2},"pageview-count":{},"ancre-navigation":{"associatedWithSummary":true,"float":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showLevel":true},"expandable-chapters-small":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"insert-logo":{"style":"background: none; max-height: 30px;min-height: 30px","url":"https://www.fecmall.com/images/logo.png"},"expandable-chapters":{}},"level_number":true,"copyright":"Copyright 2020 www.fecpx.com","theme":"theme-purple","author":"Terry","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"collapsible_menu":true,"variables":{},"title":"Fecpx 开发说明文档","links":{"gitbook":true,"sharing":{"all":true,"vk":true,"facebook":true,"twitter":true,"google":true,"weibo":true},"sidebar":{"官网首页":"http://www.fecpx.com"}},"gitbook":"*"},"file":{"path":"fecify-merchant-admin-order.md","mtime":"2022-09-13T09:43:50.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-09-13T10:01:53.360Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-insert-logo/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lightbox/js/lightbox.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
